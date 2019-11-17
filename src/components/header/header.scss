@@ -1,0 +1,41 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__container {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  &__li {
+    margin-left: 40px;
+  }
+}
