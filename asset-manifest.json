@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/multilingualphysios/static/css/main.365925c5.chunk.css",
+    "main.js": "/multilingualphysios/static/js/main.51472fc3.chunk.js",
+    "main.js.map": "/multilingualphysios/static/js/main.51472fc3.chunk.js.map",
+    "runtime-main.js": "/multilingualphysios/static/js/runtime-main.cefd3f71.js",
+    "runtime-main.js.map": "/multilingualphysios/static/js/runtime-main.cefd3f71.js.map",
+    "static/js/2.903c8ac3.chunk.js": "/multilingualphysios/static/js/2.903c8ac3.chunk.js",
+    "static/js/2.903c8ac3.chunk.js.map": "/multilingualphysios/static/js/2.903c8ac3.chunk.js.map",
+    "index.html": "/multilingualphysios/index.html",
+    "precache-manifest.41e99329fed74fcff7783ed40c26ba61.js": "/multilingualphysios/precache-manifest.41e99329fed74fcff7783ed40c26ba61.js",
+    "service-worker.js": "/multilingualphysios/service-worker.js",
+    "static/css/main.365925c5.chunk.css.map": "/multilingualphysios/static/css/main.365925c5.chunk.css.map",
+    "static/media/hero-slide.scss": "/multilingualphysios/static/media/bg-hero-slide.71eba789.jpg",
+    "static/media/logo.svg": "/multilingualphysios/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cefd3f71.js",
+    "static/js/2.903c8ac3.chunk.js",
+    "static/css/main.365925c5.chunk.css",
+    "static/js/main.51472fc3.chunk.js"
+  ]
+}
