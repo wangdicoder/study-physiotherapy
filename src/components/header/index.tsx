@@ -1,5 +1,7 @@
 import React from 'react';
 import './header.scss';
+import {NavLink} from 'react-router-dom';
+import routers from "../../routers";
 
 const Header = () => {
 
@@ -13,11 +15,10 @@ const Header = () => {
           </div>
           <nav className="header__menu">
             <ul className="header__ul">
-              <li className="header__li">Home</li>
-              <li className="header__li">Communication</li>
-              <li className="header__li">Documents</li>
-              <li className="header__li">Health System</li>
-              <li className="header__li">La Trobe ISS</li>
+              <NavLink to="/"><li className="header__li">Home</li></NavLink>
+              {routers.map((item) => (
+                <NavLink to={item.route} key={item.name}><li className="header__li">{item.name}</li></NavLink>
+              ))}
             </ul>
           </nav>
         </div>

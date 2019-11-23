@@ -5,22 +5,20 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Header from "./components/header";
 import Home from './containers/home';
-import Document from './containers/document';
-import Community from './containers/communication';
-import Health from './containers/health';
-import University from './containers/university';
+import routers from './routers';
 
 const App = () => (
   <HashRouter>
     <Switch>
-      <div>
+      <>
         <Header/>
-        <Route exact path="/" component={Home}/>
-        <Route path="/communication" component={Community}/>
-        <Route path="/documents" component={Document}/>
-        <Route path="/health-system" component={Health}/>
-        <Route path="/la-trobe" component={University}/>
-      </div>
+        <div className="app">
+          <Route exact path="/" component={Home}/>
+          {routers.map((item) => (
+            <Route key={item.name} path={item.route} component={item.component}/>
+          ))}
+        </div>
+      </>
     </Switch>
   </HashRouter>
 );
