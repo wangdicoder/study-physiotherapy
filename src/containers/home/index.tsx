@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroSlide from "./components/hero-slide";
+import Footer from "../../components/footer";
 
 export default class Home extends React.PureComponent {
 
@@ -7,6 +8,7 @@ export default class Home extends React.PureComponent {
     return (
       <div className="home">
         <HeroSlide />
+        <Footer/>
       </div>
     );
   }
