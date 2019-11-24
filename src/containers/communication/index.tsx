@@ -30,7 +30,7 @@ const Barriers = () => (
 );
 
 const Strategies = () => (
-  <Layout>
+  <Layout className="gray">
     <PageHeader title="Strategies"/>
     <Tabs defaultActiveKey="1">
       <TabPane tab="Form a small group" key="1">

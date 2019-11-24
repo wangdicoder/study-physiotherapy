@@ -1,9 +1,11 @@
 import React from 'react';
+import './health.scss';
 import Banner from "../../components/banner";
 import Layout from "../../components/layout";
 import PageHeader from "../../components/page-header";
 import ALink from "../../components/link";
 import Footer from "../../components/footer";
+import MoreInfoBanner from "./components/more-info-banner";
 
 const Introduction = () => (
   <Layout>
@@ -19,14 +21,20 @@ const Introduction = () => (
 );
 
 const System = () => (
-  <Layout>
+  <Layout className="gray">
     <PageHeader title="Public & private system"/>
     <h3>Public system</h3>
     <ul>
       <li>The government supports the cost of healthcare under the Medicare system.</li>
       <li>It also provides extra healthcare benefits to veterans and people with low incomes.</li>
-      <li>Relevant information can be found on <ALink link="https://www.humanservices.gov.au/individuals/services/medicare/medicare-card">Australian Department of Human Services</ALink> website.</li>
-      <li>With Medicare, people are entitled to free treatment as a public patient in a public hospital. It also covers part or all of the cost of seeing a GP, a specialist, and some allied health services, such as physiotherapy and occupational therapy.</li>
+      <li>Relevant information can be found on <ALink
+        link="https://www.humanservices.gov.au/individuals/services/medicare/medicare-card">Australian Department of
+        Human Services</ALink> website.
+      </li>
+      <li>With Medicare, people are entitled to free treatment as a public patient in a public hospital. It also covers
+        part or all of the cost of seeing a GP, a specialist, and some allied health services, such as physiotherapy and
+        occupational therapy.
+      </li>
     </ul>
     <h3>Private system</h3>
     <ul>
@@ -37,8 +45,10 @@ const System = () => (
 );
 
 const MoreInfo = () => (
-  <div>
-    Find relevant information from : <ALink>https://international.commonwealthfund.org/countries/australia/</ALink>
+  <div className="health__more-info">
+    <div className="section">
+      <MoreInfoBanner/>
+    </div>
   </div>
 );
 

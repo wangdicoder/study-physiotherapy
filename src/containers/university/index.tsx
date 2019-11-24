@@ -9,7 +9,7 @@ const Introduction = () => (
   <Layout>
     <PageHeader title="What is ISS?"/>
     <p>
-      La Trobe International Student Services (ISS) provides additional supports for international students. You can
+      <b style={{color: '#000'}}>La Trobe International Student Services (ISS)</b> provides additional supports for international students. You can
       visit La Trobe website to look for relevant information. (
       <ALink>https://www.latrobe.edu.au/students/international</ALink>)
     </p>
@@ -36,7 +36,7 @@ const Introduction = () => (
 );
 
 const CareerSupport = () => (
-  <Layout>
+  <Layout className="gray">
     <PageHeader title="Career Support"/>
     <p>
       La Trobe University provides support for career development and helping with employment opportunities for all

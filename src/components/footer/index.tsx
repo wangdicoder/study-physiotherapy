@@ -4,7 +4,7 @@ import './footer.scss';
 const Footer = () => (
   <footer className="footer">
     <div className="section">
-      Multi-lingual Physios
+      2019 &copy; Multi-lingual Physios
     </div>
   </footer>
 );
