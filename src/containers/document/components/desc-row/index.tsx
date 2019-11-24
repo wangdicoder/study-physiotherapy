@@ -10,7 +10,7 @@ export type DescRowProps = {
 const DescRow = ({icon, title, children}: DescRowProps) => (
   <div className="desc-row">
     <div className="desc-row__left">
-      <img src={icon} alt="img"/>
+      <img src={icon} alt="img" className="desc-row__icon"/>
       <h3>{title}</h3>
     </div>
     <div className="desc-row__right">

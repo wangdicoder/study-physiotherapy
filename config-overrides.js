@@ -8,7 +8,11 @@ module.exports = override(
 	}),
 	addLessLoader({
 		javascriptEnabled: true,
-		modifyVars: { '@primary-color': '#6E41BF' },
+		modifyVars: {
+			'@primary-color': '#6E41BF',
+			'@font-family': 'Questrial, Arial, sans-serif',
+			'@font-size-base': '17px',
+		},
 	}),
 	addDecoratorsLegacy(),
 );

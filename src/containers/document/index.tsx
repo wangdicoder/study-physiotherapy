@@ -7,15 +7,15 @@ import Layout from "../../components/layout";
 import Footer from "../../components/footer";
 
 const StrategyList = [{
-  icon: '',
+  icon: require('../../assets/icon/ic_paper.svg'),
   title: 'English result',
   desc: 'English result required for course application (IELTS Academic score of 7.0 with no individual band score < 7.0; only IELTS, TOEFL and PTE Academic results equal to IELTS 7/7 will be accepted)'
 }, {
-  icon: '',
+  icon: require('../../assets/icon/ic_certificate.svg'),
   title: 'Student visa',
-  desc: ''
+  desc: 'Student visa'
 }, {
-  icon: '',
+  icon: require('../../assets/icon/ic_form.svg'),
   title: 'Placement',
   desc: (
     <div>
@@ -31,7 +31,7 @@ const StrategyList = [{
     </div>
   ),
 }, {
-  icon: '',
+  icon: require('../../assets/icon/ic_formcheck.svg'),
   title: 'AHPRA registration',
   desc: (
     <div>
@@ -64,7 +64,11 @@ export default class Document extends React.PureComponent {
   render() {
     return (
       <div className="document">
-        <Banner title="Documents"/>
+        <Banner
+          title="Documents"
+          titleStyle={{color: '#000'}}
+          backgroundImage={require('../../assets/banner/banner_docs.jpeg')}
+        />
         <Description/>
         <Footer/>
       </div>

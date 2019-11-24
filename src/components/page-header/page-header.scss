@@ -1,5 +1,20 @@
-.page-header{
-  &__title{
+.page-header {
+  &__title {
     text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 40px;
+
+    &:after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #6e41bf;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }

@@ -3,9 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background: aliceblue center center no-repeat;
+  background-size: cover;
 
   &__title {
+    color: #fff;
     text-align: center;
+    font-size: 35px;
+    font-weight: 600;
   }
 }

@@ -146,7 +146,10 @@ export default class University extends React.PureComponent {
   render() {
     return (
       <div className="university">
-        <Banner title="La Trobe International Student Services"/>
+        <Banner
+          title="La Trobe International Student Services"
+          backgroundImage={require('../../assets/banner/banner_university.jpg')}
+        />
         <Introduction/>
         <CareerSupport/>
         <Counselling/>

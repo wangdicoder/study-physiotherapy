@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 999;
 
   &__logo-container {
     display: flex;
@@ -33,9 +34,11 @@
   &__ul {
     list-style-type: none;
     display: flex;
+    margin: 0;
   }
 
   &__li {
     margin-left: 40px;
+    font-weight: 600;
   }
 }

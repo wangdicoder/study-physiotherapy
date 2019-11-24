@@ -1,12 +1,14 @@
 @import "../../../../../variables";
 
 .hero-slide {
-  height: 100vh;
   background: url("../../../../assets/bg/bg-hero-slide.jpg") center center no-repeat;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  padding: 0 100px;
+
+  &__container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
 
   &__left, &__right {
     flex: 1;
@@ -25,8 +27,10 @@
     font-family: Arial, sans-serif;
     margin-bottom: 5px;
     color: #0a0a0a;
+    line-height: 1.2;
+    font-weight: 600;
 
-    &_green {
+    &_color {
       color: $main-color;
     }
   }
@@ -35,5 +39,6 @@
     color: rgba($main-color, .7);
     font-size: 19px;
     line-height: 1.4;
+    margin-top: 15px;
   }
 }

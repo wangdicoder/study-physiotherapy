@@ -34,36 +34,58 @@ const Strategies = () => (
     <PageHeader title="Strategies"/>
     <Tabs defaultActiveKey="1">
       <TabPane tab="Form a small group" key="1">
-        <ol>
+        <ul>
           <li>To role-play and practice relevant skills.</li>
           <li>This has been suggested to be very helpful among 4th year international students.</li>
           <li>Practice helps you become more fluent, feel more confident and get experience actually using all the words
             and grammar you have learned.
           </li>
-        </ol>
+        </ul>
       </TabPane>
       <TabPane tab="Ask for help" key="2">
-        <ol>
+        <ul>
           <li>Socialise with local students and ask for advice regarding your pronunciations or areas that you can
             improve on your communication.
           </li>
           <li>Actively seek help from peers, tutors and supervisors. Get advice from different people.</li>
-        </ol>
+        </ul>
       </TabPane>
       <TabPane tab="Familiar with different English accents" key="3">
-        <ol>
+        <ul>
           <li>In the placements or real-life, you will be talking to patients and clients from different backgrounds.
             Some of them are using English as their second language as well. Therefore, get yourself familiar with
             different English accents can be helpful. YouTube is a good platform to have an idea of how people from
             different countries may speak English differ from each other.
           </li>
-        </ol>
+        </ul>
       </TabPane>
       <TabPane tab="Read local news, such as sports" key="4">
-
+        <ul>
+          <li>
+            It is always a good idea to have some chitchat with your patients in the treatment session. This will help
+            to build rapport between therapist and patients. Hence, keep an eye of recent news will help with the topics
+            for conversations. Elderly generations usually to share ideas of what happened recently around the world.
+            Young generations may be more interested in sports, especially if you’re working in a sport physiotherapy
+            clinic.
+          </li>
+        </ul>
       </TabPane>
       <TabPane tab="Be confident" key="5">
-
+        <ul>
+          <li>We are bilingual. Either Vietnamese, Cantonese, Korean or Mandarin, we can speak two languages, which can
+            be a great advantage. You’re gonna have patients coming from different backgrounds and someday you’ll have
+            someone come to you speaking your own language, and in that case, you can treat them even better because
+            there is no communication barriers.
+          </li>
+          <li>Don’t pay too much attention on your accent. Everyone has an accent. There are British accent, American
+            accent, Kiwi accent, Aussie accent, Indian accent, etc. Thus, there is no shame to have an accent. As long
+            as people can understand you. Language ultimately is a communication tool to connect people.
+          </li>
+          <li>Speak louder! Sometimes it’s not that your English is poor or your pronunciation is terrible. It may just
+            because you’re speaking too softly. Especially for older generations, a soft volume does not help. Try to
+            speak louder and more confidently.
+          </li>
+        </ul>
       </TabPane>
     </Tabs>
   </Layout>
@@ -74,7 +96,10 @@ export default class Communication extends React.PureComponent {
   render() {
     return (
       <div className="communication">
-        <Banner title="Communication"/>
+        <Banner
+          title="Communication"
+          backgroundImage={require('../../assets/banner/banner_communication.jpg')}
+        />
         <Barriers/>
         <Strategies/>
         <Footer/>

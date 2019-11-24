@@ -47,7 +47,10 @@ export default class Health extends React.PureComponent {
   render() {
     return (
       <div className="health">
-        <Banner title="Healthcare System"/>
+        <Banner
+          title="Healthcare System"
+          backgroundImage={require('../../assets/banner/banner_healthcare.jpg')}
+        />
         <Introduction/>
         <System/>
         <MoreInfo/>
