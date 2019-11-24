@@ -50,7 +50,7 @@ const Strategies = () => (
           <li>Actively seek help from peers, tutors and supervisors. Get advice from different people.</li>
         </ol>
       </TabPane>
-      <TabPane tab="Get familiar with different English accents" key="3">
+      <TabPane tab="Familiar with different English accents" key="3">
         <ol>
           <li>In the placements or real-life, you will be talking to patients and clients from different backgrounds.
             Some of them are using English as their second language as well. Therefore, get yourself familiar with

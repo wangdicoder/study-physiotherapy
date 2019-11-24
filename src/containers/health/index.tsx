@@ -25,9 +25,7 @@ const System = () => (
     <ul>
       <li>The government supports the cost of healthcare under the Medicare system.</li>
       <li>It also provides extra healthcare benefits to veterans and people with low incomes.</li>
-      <li>Relevant information can be found on Australian Department of Human Services (
-        <ALink>https://www.humanservices.gov.au/individuals/services/medicare/medicare-card</ALink>
-        ) website.</li>
+      <li>Relevant information can be found on <ALink link="https://www.humanservices.gov.au/individuals/services/medicare/medicare-card">Australian Department of Human Services</ALink> website.</li>
       <li>With Medicare, people are entitled to free treatment as a public patient in a public hospital. It also covers part or all of the cost of seeing a GP, a specialist, and some allied health services, such as physiotherapy and occupational therapy.</li>
     </ul>
     <h3>Private system</h3>

@@ -1,11 +1,12 @@
 import React from 'react';
 
 export type ALink = {
+  link?: string;
   children: string;
 };
 
-const ALink = ({children}: ALink) => (
-  <a href={children} target="_blank">{children}</a>
+const ALink = ({link, children}: ALink) => (
+  <a href={link ? link : children} target="_blank" rel="noopener noreferrer">{children}</a>
 );
 
 export default ALink;

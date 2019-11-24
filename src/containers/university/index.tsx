@@ -43,7 +43,8 @@ const CareerSupport = () => (
       students.
     </p>
     <p>
-      The Career Ready team (<ALink>https://www.latrobe.edu.au/students/opportunities/careers/contacts</ALink>) offers
+      The <ALink link="https://www.latrobe.edu.au/students/opportunities/careers/contacts">Career Ready
+      team</ALink> offers
       services:
     </p>
     <ul>
@@ -58,14 +59,15 @@ const CareerSupport = () => (
       <li>
         Interview practice
         <ul>
-          <li>Big Interview (hyperlink: https://latrobe.biginterview.com/)—online tool for tips on answering interview
+          <li><ALink link="https://latrobe.biginterview.com/">Big Interview</ALink> —- online tool for tips on answering
+            interview
             questions, and practice for interviews
           </li>
           <li>Use your La Trobe email address to register for a free account and get started.</li>
         </ul>
       </li>
       <li>
-        One-to-one career ready mentoring (<ALink>https://mentoring.latrobe.edu.au/about</ALink>)
+        <ALink link="https://mentoring.latrobe.edu.au/about">One-to-one career ready mentoring</ALink>
         <ul>
           <li>Industry Mentoring is an opportunity for students to connect with an industry professional in a 1 to 1
             mentoring relationship.
@@ -79,7 +81,8 @@ const CareerSupport = () => (
         Lunch-time seminars and workshops on resume writing, interview skills, job seeking, internships, graduate
         recruitment and assessment centres.
         <ul>
-          <li>Relevant information can be found at: https://www.latrobe.edu.au/students/opportunities/careers/events
+          <li>Relevant information can be found
+            at: <ALink>https://www.latrobe.edu.au/students/opportunities/careers/events</ALink>
           </li>
         </ul>
       </li>
@@ -93,8 +96,9 @@ const Counselling = () => (
     <p>Caring and effective psychological, social, and emotional support to enhance students’ academic and personal
       success. Services offered?</p>
     <ul>
-      <li>Individual counselling (hyperlink:
-        https://www.latrobe.edu.au/students/support/wellbeing/counselling/individual-counselling)
+      <li>
+        <ALink link="https://www.latrobe.edu.au/students/support/wellbeing/counselling/individual-counselling">Individual
+          counselling</ALink>
         <ul>
           <li>Study-related issues (e.g. procrastination, exam anxiety)</li>
           <li>Coping with placements</li>
@@ -110,8 +114,9 @@ const Counselling = () => (
           <li>Substance abuse and additions</li>
         </ul>
       </li>
-      <li>Group programs and workshops
-        (<ALink>https://www.latrobe.edu.au/students/support/wellbeing/counselling/group-programs-and-workshops</ALink>):
+      <li>
+        <ALink link="https://www.latrobe.edu.au/students/support/wellbeing/counselling/group-programs-and-workshops">Group
+          programs and workshops</ALink>
         <ul>
           <li>Free groups and workshops around study-related skills, health and wellbeing</li>
           <li>Topics can be found
@@ -119,8 +124,9 @@ const Counselling = () => (
           </li>
         </ul>
       </li>
-      <li>Self-help resources
-        (<ALink>https://www.latrobe.edu.au/students/support/wellbeing/counselling/self-help-resources</ALink>)
+      <li>
+        <ALink link="https://www.latrobe.edu.au/students/support/wellbeing/counselling/self-help-resources">Self-help
+          resources</ALink>
         <ul>
           <li>Procrastination</li>
           <li>Managing stress</li>
