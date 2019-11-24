@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/multi-lingual-physios/static/css/main.6f6620db.chunk.css",
-    "main.js": "/multi-lingual-physios/static/js/main.c6ca63ca.chunk.js",
-    "main.js.map": "/multi-lingual-physios/static/js/main.c6ca63ca.chunk.js.map",
+    "main.css": "/multi-lingual-physios/static/css/main.68af0d8d.chunk.css",
+    "main.js": "/multi-lingual-physios/static/js/main.c40f2424.chunk.js",
+    "main.js.map": "/multi-lingual-physios/static/js/main.c40f2424.chunk.js.map",
     "runtime-main.js": "/multi-lingual-physios/static/js/runtime-main.77f1ace0.js",
     "runtime-main.js.map": "/multi-lingual-physios/static/js/runtime-main.77f1ace0.js.map",
-    "static/css/2.9d8a86b9.chunk.css": "/multi-lingual-physios/static/css/2.9d8a86b9.chunk.css",
-    "static/js/2.caf58440.chunk.js": "/multi-lingual-physios/static/js/2.caf58440.chunk.js",
-    "static/js/2.caf58440.chunk.js.map": "/multi-lingual-physios/static/js/2.caf58440.chunk.js.map",
+    "static/css/2.3340f4ad.chunk.css": "/multi-lingual-physios/static/css/2.3340f4ad.chunk.css",
+    "static/js/2.a0870420.chunk.js": "/multi-lingual-physios/static/js/2.a0870420.chunk.js",
+    "static/js/2.a0870420.chunk.js.map": "/multi-lingual-physios/static/js/2.a0870420.chunk.js.map",
     "index.html": "/multi-lingual-physios/index.html",
-    "precache-manifest.68cb0fc0bfc17868cc0142ac682dd4b1.js": "/multi-lingual-physios/precache-manifest.68cb0fc0bfc17868cc0142ac682dd4b1.js",
+    "precache-manifest.3776c4aa13874b1701d232f3df9b44c4.js": "/multi-lingual-physios/precache-manifest.3776c4aa13874b1701d232f3df9b44c4.js",
     "service-worker.js": "/multi-lingual-physios/service-worker.js",
-    "static/css/2.9d8a86b9.chunk.css.map": "/multi-lingual-physios/static/css/2.9d8a86b9.chunk.css.map",
-    "static/css/main.6f6620db.chunk.css.map": "/multi-lingual-physios/static/css/main.6f6620db.chunk.css.map",
+    "static/css/2.3340f4ad.chunk.css.map": "/multi-lingual-physios/static/css/2.3340f4ad.chunk.css.map",
+    "static/css/main.68af0d8d.chunk.css.map": "/multi-lingual-physios/static/css/main.68af0d8d.chunk.css.map",
+    "static/media/banner_communication.jpg": "/multi-lingual-physios/static/media/banner_communication.a658b700.jpg",
+    "static/media/banner_docs.jpeg": "/multi-lingual-physios/static/media/banner_docs.3d80df10.jpeg",
+    "static/media/banner_healthcare.jpg": "/multi-lingual-physios/static/media/banner_healthcare.1194d94a.jpg",
+    "static/media/health.scss": "/multi-lingual-physios/static/media/banner_more-info.e792813d.jpg",
+    "static/media/banner_university.jpg": "/multi-lingual-physios/static/media/banner_university.68183948.jpg",
     "static/media/hero-slide.scss": "/multi-lingual-physios/static/media/bg-hero-slide.71eba789.jpg",
+    "static/media/ic_certificate.svg": "/multi-lingual-physios/static/media/ic_certificate.c8e77f20.svg",
+    "static/media/ic_form.svg": "/multi-lingual-physios/static/media/ic_form.7df2c2ca.svg",
+    "static/media/ic_formcheck.svg": "/multi-lingual-physios/static/media/ic_formcheck.f25d5222.svg",
+    "static/media/ic_paper.svg": "/multi-lingual-physios/static/media/ic_paper.45aa3701.svg",
     "static/media/logo.svg": "/multi-lingual-physios/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.77f1ace0.js",
-    "static/css/2.9d8a86b9.chunk.css",
-    "static/js/2.caf58440.chunk.js",
-    "static/css/main.6f6620db.chunk.css",
-    "static/js/main.c6ca63ca.chunk.js"
+    "static/css/2.3340f4ad.chunk.css",
+    "static/js/2.a0870420.chunk.js",
+    "static/css/main.68af0d8d.chunk.css",
+    "static/js/main.c40f2424.chunk.js"
   ]
 }
