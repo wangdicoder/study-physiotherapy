@@ -17,4 +17,10 @@
       transform: translateX(-50%);
     }
   }
+
+  &__subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-top: -20px;
+  }
 }
