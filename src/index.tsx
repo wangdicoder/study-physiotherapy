@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import { HashRouter, Switch, Route } from 'react-router-dom';
+import './config/westeros';
 
 import Header from "./components/header";
 import Home from './containers/home';

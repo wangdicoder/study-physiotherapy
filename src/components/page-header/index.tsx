@@ -9,7 +9,7 @@ export type PageHeaderProps = {
 const PageHeader = ({title, subtitle}: PageHeaderProps) => (
   <div className="page-header">
     <h2 className="page-header__title">{title}</h2>
-    <p className="page-header__subtitle">{subtitle}</p>
+    {subtitle && <p className="page-header__subtitle">{subtitle}</p>}
   </div>
 );
 
