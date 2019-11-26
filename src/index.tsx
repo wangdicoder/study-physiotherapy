@@ -15,9 +15,17 @@ const App = () => (
         <Header/>
         <div className="app">
           <Route exact path="/" component={Home}/>
-          {routers.map((item) => (
-            <Route key={item.name} path={item.route} component={item.component}/>
-          ))}
+          {routers.map((item) => {
+            if (item.children) {
+              return item.children.map((child) => (
+                <Route key={child.name} path={child.route} component={child.component}/>
+              ))
+            } else {
+              return (
+                <Route key={item.name} path={item.route} component={item.component}/>
+              )
+            }
+          })}
         </div>
       </>
     </Switch>

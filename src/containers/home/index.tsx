@@ -44,8 +44,8 @@ const Issue = () => (
         />
       </Col>
       <Col span={10}>
-        <p>Through an informal discussion, there were about 50% of the current 4th year international physio students
-          have failed at least 1 placement. </p>
+        <p>It is estimated that there were about 50% of the current 4th year international physio students have
+          failured at least 1 placement (not official status). </p>
       </Col>
     </Row>
     <p>It is well acknowledged that international students are facing different challenges while their studying in
