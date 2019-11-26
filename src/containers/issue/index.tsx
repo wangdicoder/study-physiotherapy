@@ -3,8 +3,9 @@ import Banner from "../../components/banner";
 import Layout from "../../components/layout";
 import PageHeader from "../../components/page-header";
 import Bubble from "./components/bubble";
+import Footer from "../../components/footer";
 
-const Colors = ['c23531', '61a0a8', 'd48265'];
+const Colors = ['2ec7c9', 'b6a2de', '5ab1ef', 'ffb980', 'e5cf0d', '97b552', 'd87a80', '9a7fd1'];
 
 const BubbleList = [{
   contents: [
@@ -61,6 +62,7 @@ export default class Issue extends React.PureComponent {
       <div>
         <Banner title="Listen to them"/>
         <BubbleMessage/>
+        <Footer/>
       </div>
     );
   }

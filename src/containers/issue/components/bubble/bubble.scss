@@ -11,7 +11,6 @@
   display: flex;
   margin-bottom: 20px;
 
-  //['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83',  '#ca8622', '#bda29a','#6e7074', '#546570', '#c4ccd3']
   &_left {
     .bubble__content {
       margin-left: 20px;
@@ -41,16 +40,38 @@
     @include bubbleColor();
   }
 
-  &_c23531{
-    @include bubbleColor(#c23531);
+  //Colors = ['2ec7c9', 'b6a2de', '5ab1ef', 'ffb980', 'e5cf0d', '97b552', 'd87a80', '9a7fd1'];
+
+  &_2ec7c9{
+    @include bubbleColor(#2ec7c9);
   }
 
-  &_61a0a8{
-    @include bubbleColor(#61a0a8);
+  &_b6a2de{
+    @include bubbleColor(#b6a2de);
   }
 
-  &_d48265{
-    @include bubbleColor(#d48265);
+  &_5ab1ef{
+    @include bubbleColor(#5ab1ef);
+  }
+
+  &_ffb980{
+    @include bubbleColor(#ffb980);
+  }
+
+  &_e5cf0d{
+    @include bubbleColor(#e5cf0d);
+  }
+
+  &_97b552{
+    @include bubbleColor(#97b552);
+  }
+
+  &_d87a80{
+    @include bubbleColor(#d87a80);
+  }
+
+  &_9a7fd1{
+    @include bubbleColor(#9a7fd1);
   }
 
   &__avatar {
