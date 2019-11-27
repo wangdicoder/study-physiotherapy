@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/study-physiotherapy/./static/css/main.b25b3aa4.chunk.css",
-    "main.js": "/study-physiotherapy/./static/js/main.f524f5f8.chunk.js",
-    "main.js.map": "/study-physiotherapy/./static/js/main.f524f5f8.chunk.js.map",
+    "main.js": "/study-physiotherapy/./static/js/main.ca325cab.chunk.js",
+    "main.js.map": "/study-physiotherapy/./static/js/main.ca325cab.chunk.js.map",
     "runtime-main.js": "/study-physiotherapy/./static/js/runtime-main.6f6bbc81.js",
     "runtime-main.js.map": "/study-physiotherapy/./static/js/runtime-main.6f6bbc81.js.map",
     "static/css/2.0d558061.chunk.css": "/study-physiotherapy/./static/css/2.0d558061.chunk.css",
-    "static/js/2.273b9b10.chunk.js": "/study-physiotherapy/./static/js/2.273b9b10.chunk.js",
-    "static/js/2.273b9b10.chunk.js.map": "/study-physiotherapy/./static/js/2.273b9b10.chunk.js.map",
+    "static/js/2.bdb23f8c.chunk.js": "/study-physiotherapy/./static/js/2.bdb23f8c.chunk.js",
+    "static/js/2.bdb23f8c.chunk.js.map": "/study-physiotherapy/./static/js/2.bdb23f8c.chunk.js.map",
     "index.html": "/study-physiotherapy/./index.html",
-    "precache-manifest.7cf1dd3b8ea0e7021087ac5e0d279714.js": "/study-physiotherapy/./precache-manifest.7cf1dd3b8ea0e7021087ac5e0d279714.js",
+    "precache-manifest.ab1e8292e26c7aa44d0c2768ba737edc.js": "/study-physiotherapy/./precache-manifest.ab1e8292e26c7aa44d0c2768ba737edc.js",
     "service-worker.js": "/study-physiotherapy/./service-worker.js",
     "static/css/2.0d558061.chunk.css.map": "/study-physiotherapy/./static/css/2.0d558061.chunk.css.map",
     "static/css/main.b25b3aa4.chunk.css.map": "/study-physiotherapy/./static/css/main.b25b3aa4.chunk.css.map",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.6f6bbc81.js",
     "static/css/2.0d558061.chunk.css",
-    "static/js/2.273b9b10.chunk.js",
+    "static/js/2.bdb23f8c.chunk.js",
     "static/css/main.b25b3aa4.chunk.css",
-    "static/js/main.f524f5f8.chunk.js"
+    "static/js/main.ca325cab.chunk.js"
   ]
 }
