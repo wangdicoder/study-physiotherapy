@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.scss';
 import { Row, Col } from 'antd';
 import HeroSlide from "./components/hero-slide";
 import Footer from "../../components/footer";
@@ -17,33 +18,33 @@ const Issue = () => (
       <b>9,160</b> international students in 2017, which accounted for <b>23.7%</b> of total students in that
       year<RefTag>1</RefTag>
     </p>
-    <Row type="flex" align="middle" justify="center">
-      <Col span={10}>
+    <Row className="home__row" type="flex" align="middle" justify="center">
+      <Col className="home__column home__column_label" span={10}>
         <p>The international students account for approximately 10% of the total students in each cohort of
           physiotherapy course. </p>
       </Col>
-      <Col span={10}>
+      <Col className="home__column home__column_chart" span={10}>
         <PieChart
           title="Physiotherapy Student"
           data={[
-            {name: 'Local Student', value: 90},
-            {name: 'International Student', value: 10},
+            { name: 'Local Student', value: 90 },
+            { name: 'International Student', value: 10 },
           ]}
         />
       </Col>
     </Row>
-    <Row type="flex" align="middle">
-      <Col span={10}>
+    <Row  className="home__row" type="flex" align="middle">
+      <Col className="home__column home__column_chart" span={10}>
         <PieChart
           title="Placement failure rate"
           data={[
-            {name: 'Passed', value: 50},
-            {name: 'Failed', value: 50},
+            { name: 'Passed', value: 50 },
+            { name: 'Failed', value: 50 },
           ]}
           theme="roma"
         />
       </Col>
-      <Col span={10}>
+      <Col className="home__column  home__column_label" span={10}>
         <p>It is estimated that there were about 50% of the current 4th year international physio students have
           failured at least 1 placement (not official status). </p>
       </Col>

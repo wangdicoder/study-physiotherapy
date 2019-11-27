@@ -1,3 +1,5 @@
+@import "../../../../variables";
+
 .desc-row {
   display: flex;
   align-items: flex-start;
@@ -17,5 +19,18 @@
 
   &__right {
     flex: 1;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .desc-row {
+    flex-direction: column;
+    align-items: center;
+
+    &__right {
+      p{
+        text-align: center;
+      }
+    }
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import { HashRouter, Switch, Route } from 'react-router-dom';
+import {BackTop} from 'antd';
 import './config/westeros';
 
 import Header from "./components/header";
@@ -27,6 +28,7 @@ const App = () => (
             }
           })}
         </div>
+        <BackTop className="app__backtop"/>
       </>
     </Switch>
   </HashRouter>

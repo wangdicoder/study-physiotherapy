@@ -26,12 +26,12 @@ const Introduction = () => (
       <li>University policies and procedures</li>
     </ul>
     <p>
-      To make appointment, call (03) 9479 1199 or Ask a Question online（
+      To make appointment, call <a href="tel:+0394791199">(03) 9479 1199</a> or Ask a Question online（
       <ALink>http://latrobe-current.custhelp.com/app/ask/session/</ALink>)
     </p>
     <br/>
     <p>24-hour student support hotline</p>
-    <p>If you need help after-hours, call 1800 758 360</p>
+    <p>If you need help after-hours, call <a href="tel:1800758360">1800 758 360</a></p>
   </Layout>
 );
 
@@ -52,7 +52,7 @@ const CareerSupport = () => (
       <li>
         Resume checking
         <ul>
-          <li>https://latrobe.careerhub.com.au/students/workflows/detail/5</li>
+          <li><ALink>https://latrobe.careerhub.com.au/students/workflows/detail/5</ALink></li>
           <li>Online 24/7 automated feedback or personalised feedback from a careers advisor</li>
         </ul>
       </li>

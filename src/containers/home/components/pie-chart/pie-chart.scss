@@ -1,0 +1,14 @@
+@import "../../../../variables";
+
+.pie-chart{
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .pie-chart{
+    width: 250px;
+    height: 200px;
+    margin: 0;
+  }
+}

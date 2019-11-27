@@ -1,4 +1,4 @@
-@import "../../../../../variables";
+@import "../../../../variables";
 
 .hero-slide {
   background: url("../../../../assets/bg/bg-hero-slide.jpg") center center no-repeat;
@@ -19,7 +19,6 @@
   }
 
   &__right {
-
   }
 
   &__title {
@@ -40,5 +39,17 @@
     font-size: 19px;
     line-height: 1.4;
     margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .hero-slide {
+    &__left {
+      padding: 0 30px;
+    }
+
+    &__right {
+      display: none;
+    }
   }
 }

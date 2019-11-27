@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react';
+import './pie-chart.scss';
 import echarts from 'echarts/lib/echarts';
 import 'echarts/lib/chart/pie';
 import 'echarts/lib/component/tooltip';
@@ -43,7 +44,7 @@ const PieChart = ({title, data, theme = 'westeros'}: PieChartProps) => {
   }, [data, theme, title]);
 
   return (
-    <div ref={root} style={{width: 400, height: 300}}/>
+    <div ref={root} className="pie-chart"/>
   );
 };
 

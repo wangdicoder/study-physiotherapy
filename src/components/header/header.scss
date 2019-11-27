@@ -1,3 +1,5 @@
+@import "../../variables";
+
 .header {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);
@@ -44,5 +46,29 @@
     font-weight: 600;
     color: #8d66cc;
     cursor: pointer;
+  }
+
+  &__menu-icon{
+    display: none;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .header {
+    &__container {
+      padding: 0 10px;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__menu-icon{
+      display: block;
+      color: #6e41bf;
+      font-size: 20px;
+      cursor: pointer;
+      padding-left: 10px;
+    }
   }
 }
