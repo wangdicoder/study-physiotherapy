@@ -1,6 +1,18 @@
+@import "../../variables";
+
 .health {
   &__more-info {
     background: url("../../assets/banner/banner_more-info.jpg") center center no-repeat;
     background-size: cover;
   }
+
+  &__group{
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+
 }

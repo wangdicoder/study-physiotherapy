@@ -8,11 +8,13 @@ import './config/westeros';
 import Header from "./components/header";
 import Home from './containers/home';
 import routers from './routers';
+import ScrollToTop from "./components/scroll-top";
 
 const App = () => (
   <HashRouter>
     <Switch>
       <>
+        <ScrollToTop />
         <Header/>
         <div className="app">
           <Route exact path="/" component={Home}/>
@@ -28,7 +30,7 @@ const App = () => (
             }
           })}
         </div>
-        <BackTop/>
+        <BackTop className="app__backtop"/>
       </>
     </Switch>
   </HashRouter>

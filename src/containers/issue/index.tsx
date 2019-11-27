@@ -60,7 +60,10 @@ export default class Issue extends React.PureComponent {
   render() {
     return (
       <div>
-        <Banner title="Listen to them"/>
+        <Banner
+          title="Common Issues"
+          backgroundImage={require('../../assets/banner/banner_issue.jpg')}
+        />
         <BubbleMessage/>
         <Footer/>
       </div>

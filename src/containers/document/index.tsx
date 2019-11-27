@@ -15,9 +15,9 @@ const StrategyList = [{
   title: 'Student visa',
   desc: (
     <div>
-      <p>Work limitation </p>
+      <p>Subclass 500</p>
       <ul>
-        <li>This condition means that you must not engage in any work before your course of study commences. You are
+        <li>Working limitation: this condition means that you must not engage in any work before your course of study commences. You are
           also not permitted to work more than 40 hours per fortnight when you are in Australia when your course of
           study is in session.
         </li>
@@ -76,8 +76,7 @@ export default class Document extends React.PureComponent {
       <div className="document">
         <Banner
           title="Documents"
-          titleStyle={{color: '#000'}}
-          backgroundImage={require('../../assets/banner/banner_docs.jpeg')}
+          backgroundImage={require('../../assets/banner/banner_docs.jpg')}
         />
         <Description/>
         <Footer/>
