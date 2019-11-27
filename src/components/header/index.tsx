@@ -18,7 +18,7 @@ const Header = () => {
               <img src={require('../../assets/logo/logo.svg')} alt="logo" className="header__logo"/>
             </Link>
             <Link to="/">
-              <div className="header__title">Multi-lingual Physios</div>
+              <div className="header__title">Studying Physiotherapy</div>
             </Link>
           </div>
           <nav className="header__menu">
