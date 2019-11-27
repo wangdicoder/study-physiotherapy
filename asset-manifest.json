@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/multi-lingual-physios/static/css/main.9c08909b.chunk.css",
+    "main.css": "/multi-lingual-physios/static/css/main.d6f67ed3.chunk.css",
     "main.js": "/multi-lingual-physios/static/js/main.420d5217.chunk.js",
     "main.js.map": "/multi-lingual-physios/static/js/main.420d5217.chunk.js.map",
     "runtime-main.js": "/multi-lingual-physios/static/js/runtime-main.77f1ace0.js",
@@ -9,10 +9,10 @@
     "static/js/2.fbc9f448.chunk.js": "/multi-lingual-physios/static/js/2.fbc9f448.chunk.js",
     "static/js/2.fbc9f448.chunk.js.map": "/multi-lingual-physios/static/js/2.fbc9f448.chunk.js.map",
     "index.html": "/multi-lingual-physios/index.html",
-    "precache-manifest.a5317f60f7f3db42abb7c3cdf0b9ef95.js": "/multi-lingual-physios/precache-manifest.a5317f60f7f3db42abb7c3cdf0b9ef95.js",
+    "precache-manifest.a747eccfe0a404f590ae0c068925b2ab.js": "/multi-lingual-physios/precache-manifest.a747eccfe0a404f590ae0c068925b2ab.js",
     "service-worker.js": "/multi-lingual-physios/service-worker.js",
     "static/css/2.5c2d567a.chunk.css.map": "/multi-lingual-physios/static/css/2.5c2d567a.chunk.css.map",
-    "static/css/main.9c08909b.chunk.css.map": "/multi-lingual-physios/static/css/main.9c08909b.chunk.css.map",
+    "static/css/main.d6f67ed3.chunk.css.map": "/multi-lingual-physios/static/css/main.d6f67ed3.chunk.css.map",
     "static/media/banner_communication.jpg": "/multi-lingual-physios/static/media/banner_communication.a658b700.jpg",
     "static/media/banner_docs.jpeg": "/multi-lingual-physios/static/media/banner_docs.3d80df10.jpeg",
     "static/media/banner_healthcare.jpg": "/multi-lingual-physios/static/media/banner_healthcare.1194d94a.jpg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.77f1ace0.js",
     "static/css/2.5c2d567a.chunk.css",
     "static/js/2.fbc9f448.chunk.js",
-    "static/css/main.9c08909b.chunk.css",
+    "static/css/main.d6f67ed3.chunk.css",
     "static/js/main.420d5217.chunk.js"
   ]
 }

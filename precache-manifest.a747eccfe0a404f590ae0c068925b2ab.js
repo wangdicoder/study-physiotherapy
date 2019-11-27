@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d82113549833c1d74efa9a6a1049e09a",
+    "revision": "598894669b0bbc2100ece44e2cf00a10",
     "url": "/multi-lingual-physios/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/multi-lingual-physios/static/css/2.5c2d567a.chunk.css"
   },
   {
-    "revision": "d6fd9f3d82d88a8c8e1d",
-    "url": "/multi-lingual-physios/static/css/main.9c08909b.chunk.css"
+    "revision": "8bd49eac12b2d7a58662",
+    "url": "/multi-lingual-physios/static/css/main.d6f67ed3.chunk.css"
   },
   {
     "revision": "cdbb1a59bd769d5b77f1",
     "url": "/multi-lingual-physios/static/js/2.fbc9f448.chunk.js"
   },
   {
-    "revision": "d6fd9f3d82d88a8c8e1d",
+    "revision": "8bd49eac12b2d7a58662",
     "url": "/multi-lingual-physios/static/js/main.420d5217.chunk.js"
   },
   {
