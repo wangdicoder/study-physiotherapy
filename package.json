@@ -2,7 +2,6 @@
   "name": "studying-physiotherapy-as-an-international-student",
   "version": "0.1.2",
   "private": true,
-  "homepage": "https://wangdicoder.github.io/study-physiotherapy",
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.8",
