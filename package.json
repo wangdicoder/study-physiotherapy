@@ -2,6 +2,7 @@
   "name": "studying-physiotherapy-as-an-international-student",
   "version": "0.1.2",
   "private": true,
+  "homepage": "https://study-physiotherapy.online/",
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.8",
@@ -25,7 +26,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "release": "standard-version"
+    "release": "standard-version",
+    "heroku": "git push heroku master"
   },
   "eslintConfig": {
     "extends": "react-app"

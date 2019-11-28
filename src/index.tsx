@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import { BackTop } from 'antd';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import './config/westeros';
 
 import Header from "./components/header";
@@ -11,7 +11,7 @@ import routers from './routers';
 import ScrollToTop from "./components/scroll-top";
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <>
         <ScrollToTop />
@@ -33,7 +33,7 @@ const App = () => (
         <BackTop className="app__backtop"/>
       </>
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 ReactDOM.render(<App/>, document.getElementById('root'));
