@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="122px" viewBox="0 0 104 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_assistant</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_assistant" fill="#7559C2" fill-rule="nonzero">
+            <path d="M92.4444445,0 L11.5555555,0 C5.2,0 0,5.22857143 0,11.6190477 L0,92.952381 C0,99.3428571 5.2,104.571429 11.5555555,104.571429 L34.6666667,104.571429 L52,122 L69.3333333,104.571429 L92.4444445,104.571429 C98.8,104.571429 104,99.3428571 104,92.952381 L104,11.6190477 C104,5.22857143 98.8,0 92.4444445,0 M62.8622222,63.2076191 L52,87.1428571 L41.1377778,63.2076191 L17.3333333,52.2857143 L41.1377778,41.3638096 L52,17.4285714 L62.8622222,41.3638096 L86.6666667,52.2857143" id="Shape"></path>
+        </g>
+    </g>
+</svg>
