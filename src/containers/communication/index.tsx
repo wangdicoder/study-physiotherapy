@@ -40,7 +40,7 @@ const Strategies = () => (
   <Layout className="gray">
     <PageHeader title="Strategies"/>
     <StrategyRow
-      icon={require('../../assets/icon/ic_group.svg')}
+      icon={require('../../assets/icon/ic_message.svg')}
       title="Practice by having conversations with yourself">
       <ul>
         <li>
@@ -74,7 +74,7 @@ const Strategies = () => (
       </ul>
     </StrategyRow>
     <StrategyRow
-      icon={require('../../assets/icon/ic_accent.svg')}
+      icon={require('../../assets/icon/ic_assistant.svg')}
       title="Look for customer service jobs and get familiar with different accents">
       <ul>
         <li>For example, part-time job at a bakery or café, AHA or local gyms.</li>

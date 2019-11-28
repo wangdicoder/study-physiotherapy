@@ -14,5 +14,9 @@
 }
 
 @media screen and (max-width: $mobile-width) {
-
+  .health {
+    &__group{
+      max-width: 100%;
+    }
+  }
 }
