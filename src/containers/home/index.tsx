@@ -20,15 +20,15 @@ const Issue = () => (
     </p>
     <Row className="home__row" type="flex" align="middle" justify="center">
       <Col className="home__column home__column_label" span={10}>
-        <p>The international students account for approximately 10% of the total students in each cohort of
+        <p>The international students account for approximately 8% of the total students in each cohort of
           physiotherapy course. </p>
       </Col>
       <Col className="home__column home__column_chart" span={10}>
         <PieChart
           title="Physiotherapy Student"
           data={[
-            { name: 'Local Student', value: 90 },
-            { name: 'International Student', value: 10 },
+            { name: 'Local Student', value: 92 },
+            { name: 'International Student', value: 8 },
           ]}
         />
       </Col>

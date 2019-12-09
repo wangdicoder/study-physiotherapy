@@ -106,7 +106,7 @@ const Strategies = () => (
       title="Be confident">
       <ul>
         <li>We are bilingual. Either Vietnamese, Cantonese, Korean or Mandarin, we can speak two languages, which can
-          be a great advantage. You’re gonna have patients coming from different backgrounds and someday you’ll have
+          be a great advantage. You’re going to have patients coming from different backgrounds and someday you’ll have
           someone come to you speaking your own language, and in that case, you can treat them even better because
           there is no communication barriers.
         </li>

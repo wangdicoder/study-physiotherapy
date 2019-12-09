@@ -48,7 +48,7 @@ const BubbleList = [{
 
 const BubbleMessage = () => (
   <Layout>
-    <PageHeader title="Hear what they’re saying"/>
+    <PageHeader title="Listen to what they’re saying"/>
     {BubbleList.map((item, idx) => (
       <Bubble key={idx} contents={item.contents} left={idx % 2 === 0} bgColor={Colors[idx]}/>
     ))}
