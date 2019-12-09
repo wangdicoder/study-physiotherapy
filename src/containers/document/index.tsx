@@ -34,7 +34,15 @@ const StrategyList = [{
       <ul>
         <li>Working with Children Check</li>
         <li>Police Check</li>
+        <ul>
+          <li>Victoria police check (state)</li>
+          <li>International criminal history check (home country)</li>
+        </ul>
         <li>International Police Check</li>
+        <ul>
+          <li>Victoria police check (state)</li>
+          <li>International criminal history check (home country)</li>
+        </ul>
         <li>Schedule 3-Student Undertake</li>
         <li>Immunisation & Health Record Form</li>
       </ul>
